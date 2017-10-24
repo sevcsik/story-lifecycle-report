@@ -1,0 +1,10 @@
+name: story-lifecycle-report
+version: 0.0.0
+license: GPL-3
+cabal-version: >= 1.18
+build-type: Simple
+
+executable story-lifecycle-report
+    build-depends: base < 5, csv, time
+    main-is: Main.hs
+    default-language: Haskell2010
